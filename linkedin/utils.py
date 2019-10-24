@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import requests
-from exceptions import LinkedInError, get_exception_for_error_code
+from .exceptions import LinkedInError, get_exception_for_error_code
 import sys
 from io import StringIO
 

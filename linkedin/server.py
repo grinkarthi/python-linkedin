@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 from urllib.parse import urlparse
 
-from linkedin import LinkedInApplication, LinkedInAuthentication, PERMISSIONS
+from .linkedin import LinkedInApplication, LinkedInAuthentication, PERMISSIONS
 
 
 def quick_api(api_key, secret_key, port=8000):
